@@ -24,11 +24,11 @@ Universitas Teknologi Bandung
 
 ### Tim Pengembang
 
-* Dika Pida Ismail
-* Intan Nurjamilah
-* Muhammad Rizki Ali
-* Muhammad Rafly Al Bukhari
-* Ryan Saleh Habibi
+* Dika Pida Ismail - 25552011148
+* Intan Nurjamilah - 25552011140
+* Muhammad Rizkia Ali Yusron - 25552011128
+* Muhammad Rafly Al Bukhari - 25552011115
+* Ryan Saleh Habibi - 25552011198
 
 ---
 
@@ -61,21 +61,7 @@ Universitas Teknologi Bandung
 
 ## System Architecture
 
-Input → Processing → Output
-
-```text
-DHT11 Sensor
-      │
-      ▼
-Arduino Uno
-      │
- ┌────┴────┐
- ▼         ▼
-LCD I2C   Relay
-              │
-              ▼
-         DC Fan 12V
-```
+![Architecture Diagram](docs/diagram-arsitektur.png)
 
 ---
 
@@ -214,7 +200,7 @@ Hasil simulasi menunjukkan bahwa:
 ## Project Structure
 
 ```text
-Smart-Home-IoT/
+auto-cooling-fan-system/
 │
 ├── src/
 │   └── main.ino
