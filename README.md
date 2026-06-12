@@ -81,7 +81,7 @@ LCD I2C   Relay
 
 ## Wiring Diagram
 
-![Wiring Diagram](docs/wiring-diagram.png)
+![Wiring Diagram](docs/wiring-diagram.jpeg)
 
 ---
 
@@ -93,7 +93,7 @@ LCD I2C   Relay
 
 ## Prototype
 
-![Prototype](images/prototype.jpg)
+![Prototype](images/prototype.png)
 
 ---
 
