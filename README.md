@@ -123,9 +123,9 @@ DHT.h
 
 ### Newton's Law of Cooling
 
-[
-\frac{dT}{dt} = -k(T - T_{env})
-]
+```text
+dT/dt = -k(T - Tenv)
+```
 
 Dimana:
 
@@ -138,9 +138,9 @@ Dimana:
 
 ## Euler Method
 
-[
-T_{n+1}=T_n+h f(t_n,T_n)
-]
+```text
+T(n+1) = T(n) + h × f(t(n), T(n))
+```
 
 Metode Euler menggunakan gradien pada titik saat ini untuk memperkirakan nilai suhu pada langkah berikutnya.
 
@@ -148,19 +148,16 @@ Metode Euler menggunakan gradien pada titik saat ini untuk memperkirakan nilai s
 
 ## Heun Method
 
-[
-T_{n+1}=T_n+\frac{h}{2}(k_1+k_2)
-]
+```text
+T(n+1) = T(n) + (h/2) × (k1 + k2)
+```
 
 dengan:
 
-[
-k_1=f(t_n,T_n)
-]
-
-[
-k_2=f(t_n+h,T_n+h k_1)
-]
+```text
+k1 = f(t(n), T(n))
+k2 = f(t(n) + h, T(n) + h × k1)
+```
 
 Metode Heun menggunakan pendekatan predictor-corrector sehingga menghasilkan akurasi yang lebih baik dibandingkan Euler.
 
